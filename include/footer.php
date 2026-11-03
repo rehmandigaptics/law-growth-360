@@ -3,7 +3,7 @@
     <div class="container lg360-wide-container">
       <div class="row g-4 lg360-footer-main">
         <div class="col-lg-3 col-md-6">
-          <a href="index.php">
+          <a href="index.html">
           <img class="lg360-footer-logo" src="assets/images/Logos-11.png" alt="Law Growth 360 Logo">
           </a>
           <p>Growth Systems for Modern Law Firms</p>
@@ -58,11 +58,11 @@
         <div class="col-lg-2 col-md-6">
           <h3>Company</h3>
           <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="Services.php">Services</a></li>
-            <li><a href="practice.php">Practice Areas</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="practice.html">Practice Areas</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 

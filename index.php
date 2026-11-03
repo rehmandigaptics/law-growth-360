@@ -2,7 +2,6 @@
 $page_title = "Home - Law Growth 360";
 ?>
 
-<title><?php echo $page_title; ?></title>
 <?php
 $currentPage = basename($_SERVER['PHP_SELF']);
 if ($currentPage == "" || $currentPage == "index") {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Law Growth 360</title>
+  <title><?php echo htmlspecialchars($page_title ?? 'Law Growth 360', ENT_QUOTES, 'UTF-8'); ?></title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
   <header class="lg360-header">
     <nav class="navbar navbar-expand-lg lg360-navbar">
       <div class="container lg360-wide-container">
-        <a class="navbar-brand lg360-brand" href="index.php">
+        <a class="navbar-brand lg360-brand" href="index.html">
           <img src="assets/images/Logos-11.png" alt="Law Growth 360 Logo">
         </a>
 
@@ -36,23 +36,23 @@
           <ul class="navbar-nav ms-auto align-items-lg-center lg360-nav-list">
 
   <li class="nav-item">
-    <a class="nav-link <?php echo activeMenu('index.php'); ?>" href="index.php">Home</a>
+    <a class="nav-link <?php echo activeMenu('index.php'); ?>" href="index.html">Home</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link <?php echo activeMenu('about.php'); ?>" href="about.php">About Us</a>
+    <a class="nav-link <?php echo activeMenu('about.php'); ?>" href="about.html">About Us</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link <?php echo activeMenu('services.php'); ?>" href="services.php">Services</a>
+    <a class="nav-link <?php echo activeMenu('services.php'); ?>" href="services.html">Services</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link <?php echo activeMenu('practice.php'); ?>" href="practice.php">Practice Areas</a>
+    <a class="nav-link <?php echo activeMenu('practice.php'); ?>" href="practice.html">Practice Areas</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link <?php echo activeMenu('contact.php'); ?>" href="contact.php">Contact Us</a>
+    <a class="nav-link <?php echo activeMenu('contact.php'); ?>" href="contact.html">Contact Us</a>
   </li>
 
 </ul>
